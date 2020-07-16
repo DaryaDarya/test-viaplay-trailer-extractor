@@ -1,0 +1,17 @@
+{
+  "env": "development",
+  "server": {
+    "host": "127.0.0.1",
+    "port": "3000"
+  },
+  "TMDbApiKey": "",
+  "logger": {
+    "level": "info"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "ttl": 86400,
+    "name": "movies"
+  }
+}

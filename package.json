@@ -1,0 +1,33 @@
+{
+  "name": "test-viaplay-trailer-extractor",
+  "version": "1.0.0",
+  "description": "API for extracting movies trailers url from imdb",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha ./tests/**/*.js --timeout 20000 --exit"
+  },
+  "author": "Darya Shemyakina",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bunyan": "^1.8.14",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "ioredis": "^4.17.3",
+    "lodash": "^4.17.19",
+    "moviedb-promise": "^3.0.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.1.0",
+    "sinon": "^9.0.1",
+    "supertest": "^4.0.2"
+  }
+}

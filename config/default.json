@@ -1,0 +1,17 @@
+{
+  "env": "default",
+  "server": {
+    "host": "",
+    "port": ""
+  },
+  "TMDbApiKey": "",
+  "logger": {
+    "level": ""
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "ttl": 86400,
+    "name": ""
+  }
+}
